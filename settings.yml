@@ -1,0 +1,33 @@
+yellow:
+  type: list
+  list_type: tag
+  default: ""
+orange:
+  type: list
+  list_type: tag
+  default: ""
+red:
+  type: list
+  list_type: tag
+  default: ""
+green:
+  type: list
+  list_type: tag
+  default: ""
+lightblue:
+  type: list
+  list_type: tag
+  default: ""
+blue:
+  type: list
+  list_type: tag
+  default: ""
+black:
+  type: list
+  list_type: tag
+  default: ""
+outline:
+  type: list
+  list_type: tag
+  default: ""
+
