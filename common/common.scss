@@ -2,85 +2,92 @@
 
 $tags-yellow: str-to-list("#{$yellow}", "|");
 @each $tag in $tags-yellow {
-.tag-box {
+  .tag-box,
+  .discourse-tags {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary);
-      background-color: #FDB300;
+      background-color: #fdb300;
       &:hover {
         color: var(--secondary);
-        background-color: #FDB300;
+        background-color: #fdb300;
       }
     }
   }
 }
 $tags-orange: str-to-list("#{$orange}", "|");
 @each $tag in $tags-orange {
-.tag-box {
+  .tag-box,
+  .discourse-tags {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary);
-      background-color: #FF7A00;
+      background-color: #ff7a00;
       &:hover {
         color: var(--secondary);
-        background-color: #FF7A00;
+        background-color: #ff7a00;
       }
     }
   }
 }
 $tags-red: str-to-list("#{$red}", "|");
 @each $tag in $tags-red {
-.tag-box {
+  .tag-box,
+  .discourse-tags {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary);
-      background-color: #EA3436;
+      background-color: #ea3436;
       &:hover {
         color: var(--secondary);
-        background-color: #EA3436;
+        background-color: #ea3436;
       }
     }
   }
 }
 $tags-green: str-to-list("#{$green}", "|");
 @each $tag in $tags-green {
-.tag-box {
+  .tag-box,
+  .discourse-tags {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary);
-      background-color: #52C50C;
+      background-color: #52c50c;
       &:hover {
         color: var(--secondary);
-        background-color: #52C50C;
+        background-color: #52c50c;
       }
     }
   }
 }
 $tags-lightblue: str-to-list("#{$lightblue}", "|");
 @each $tag in $tags-lightblue {
-.tag-box {
+  .tag-box,
+  .discourse-tags {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary);
-      background-color: #459BFF;
+      background-color: #459bff;
       &:hover {
         color: var(--secondary);
-        background-color: #459BFF;
+        background-color: #459bff;
       }
     }
   }
 }
 $tags-blue: str-to-list("#{$blue}", "|");
 @each $tag in $tags-blue {
-.tag-box {
+  .tag-box,
+  .discourse-tags {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary);
-      background-color: #007AFF;
+      background-color: #007aff;
       &:hover {
         color: var(--secondary);
-        background-color: #007AFF;
+        background-color: #007aff;
       }
     }
   }
 }
 $tags-black: str-to-list("#{$black}", "|");
 @each $tag in $tags-black {
-.tag-box {
+  .tag-box,
+  .discourse-tags {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary);
       background-color: #000;
@@ -93,7 +100,8 @@ $tags-black: str-to-list("#{$black}", "|");
 }
 $tags-outline: str-to-list("#{$outline}", "|");
 @each $tag in $tags-outline {
-.tag-box {
+  .tag-box,
+  .discourse-tags {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--tertiary-hover);
       background-color: var(--secondary);
@@ -105,6 +113,3 @@ $tags-outline: str-to-list("#{$outline}", "|");
     }
   }
 }
-
-
-
