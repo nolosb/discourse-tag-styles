@@ -3,7 +3,8 @@
 $tags-yellow: str-to-list("#{$yellow}", "|");
 @each $tag in $tags-yellow {
   .tag-box,
-  .discourse-tags {
+  .discourse-tags,
+  .topic-list .link-bottom-line {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary);
       background-color: #fdb300;
@@ -17,7 +18,8 @@ $tags-yellow: str-to-list("#{$yellow}", "|");
 $tags-orange: str-to-list("#{$orange}", "|");
 @each $tag in $tags-orange {
   .tag-box,
-  .discourse-tags {
+  .discourse-tags,
+  .topic-list .link-bottom-line {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary);
       background-color: #e47701;
@@ -31,7 +33,8 @@ $tags-orange: str-to-list("#{$orange}", "|");
 $tags-red: str-to-list("#{$red}", "|");
 @each $tag in $tags-red {
   .tag-box,
-  .discourse-tags {
+  .discourse-tags,
+  .topic-list .link-bottom-line {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary);
       background-color: #ea3436;
@@ -45,7 +48,8 @@ $tags-red: str-to-list("#{$red}", "|");
 $tags-green: str-to-list("#{$green}", "|");
 @each $tag in $tags-green {
   .tag-box,
-  .discourse-tags {
+  .discourse-tags,
+  .topic-list .link-bottom-line {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary);
       background-color: #52c50c;
@@ -59,7 +63,8 @@ $tags-green: str-to-list("#{$green}", "|");
 $tags-lightblue: str-to-list("#{$lightblue}", "|");
 @each $tag in $tags-lightblue {
   .tag-box,
-  .discourse-tags {
+  .discourse-tags,
+  .topic-list .link-bottom-line {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary);
       background-color: #459bff;
@@ -73,7 +78,8 @@ $tags-lightblue: str-to-list("#{$lightblue}", "|");
 $tags-blue: str-to-list("#{$blue}", "|");
 @each $tag in $tags-blue {
   .tag-box,
-  .discourse-tags {
+  .discourse-tags,
+  .topic-list .link-bottom-line {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary);
       background-color: #007aff;
@@ -87,7 +93,8 @@ $tags-blue: str-to-list("#{$blue}", "|");
 $tags-teal: str-to-list("#{$teal}", "|");
 @each $tag in $tags-teal {
   .tag-box,
-  .discourse-tags {
+  .discourse-tags,
+  .topic-list .link-bottom-line {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary);
       background-color: #00a398;
@@ -101,13 +108,14 @@ $tags-teal: str-to-list("#{$teal}", "|");
 $tags-outline: str-to-list("#{$outline}", "|");
 @each $tag in $tags-outline {
   .tag-box,
-  .discourse-tags {
+  .discourse-tags,
+  .topic-list .link-bottom-line {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
-      color: var(--tertiary-hover);
+      color: #00a398;
       background-color: var(--secondary);
-      border: 1px solid var(--tertiary-hover);
+      border: 1px solid #00a398;
       &:hover {
-        color: var(--tertiary-hover);
+        color: #00a398;
         background-color: var(--secondary);
       }
     }
