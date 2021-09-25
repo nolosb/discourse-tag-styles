@@ -22,7 +22,7 @@ blue:
   type: list
   list_type: tag
   default: ""
-black:
+teal:
   type: list
   list_type: tag
   default: ""

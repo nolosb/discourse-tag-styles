@@ -20,10 +20,10 @@ $tags-orange: str-to-list("#{$orange}", "|");
   .discourse-tags {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary);
-      background-color: #ff7a00;
+      background-color: #e47701;
       &:hover {
         color: var(--secondary);
-        background-color: #ff7a00;
+        background-color: #e47701;
       }
     }
   }
@@ -84,16 +84,16 @@ $tags-blue: str-to-list("#{$blue}", "|");
     }
   }
 }
-$tags-black: str-to-list("#{$black}", "|");
-@each $tag in $tags-black {
+$tags-teal: str-to-list("#{$teal}", "|");
+@each $tag in $tags-teal {
   .tag-box,
   .discourse-tags {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary);
-      background-color: #000;
+      background-color: #00a398;
       &:hover {
         color: var(--secondary);
-        background-color: #000;
+        background-color: #00a398;
       }
     }
   }
