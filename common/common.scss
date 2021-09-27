@@ -1,11 +1,14 @@
 @import "str-to-list";
 
-$tags-yellow: str-to-list("#{$yellow}", "|");
-@each $tag in $tags-yellow {
-  .tag-box,
-  .discourse-tags {
+.tag-box,
+.discourse-tags,
+.topic-list .link-bottom-line,
+.extra-info-wrapper .topic-header-extra {
+
+  $tags-yellow: str-to-list("#{$yellow}", "|");
+  @each $tag in $tags-yellow {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
-      color: var(--secondary);
+      color: var(--secondary) !important;
       background-color: #fdb300;
       &:hover {
         color: var(--secondary);
@@ -13,13 +16,10 @@ $tags-yellow: str-to-list("#{$yellow}", "|");
       }
     }
   }
-}
-$tags-orange: str-to-list("#{$orange}", "|");
-@each $tag in $tags-orange {
-  .tag-box,
-  .discourse-tags {
+  $tags-orange: str-to-list("#{$orange}", "|");
+  @each $tag in $tags-orange {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
-      color: var(--secondary);
+      color: var(--secondary) !important;
       background-color: #ff7a00;
       &:hover {
         color: var(--secondary);
@@ -27,13 +27,10 @@ $tags-orange: str-to-list("#{$orange}", "|");
       }
     }
   }
-}
-$tags-red: str-to-list("#{$red}", "|");
-@each $tag in $tags-red {
-  .tag-box,
-  .discourse-tags {
+  $tags-red: str-to-list("#{$red}", "|");
+  @each $tag in $tags-red {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
-      color: var(--secondary);
+      color: var(--secondary) !important;
       background-color: #ea3436;
       &:hover {
         color: var(--secondary);
@@ -41,13 +38,10 @@ $tags-red: str-to-list("#{$red}", "|");
       }
     }
   }
-}
-$tags-green: str-to-list("#{$green}", "|");
-@each $tag in $tags-green {
-  .tag-box,
-  .discourse-tags {
+  $tags-green: str-to-list("#{$green}", "|");
+  @each $tag in $tags-green {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
-      color: var(--secondary);
+      color: var(--secondary) !important;
       background-color: #52c50c;
       &:hover {
         color: var(--secondary);
@@ -55,13 +49,10 @@ $tags-green: str-to-list("#{$green}", "|");
       }
     }
   }
-}
-$tags-lightblue: str-to-list("#{$lightblue}", "|");
-@each $tag in $tags-lightblue {
-  .tag-box,
-  .discourse-tags {
+  $tags-lightblue: str-to-list("#{$lightblue}", "|");
+  @each $tag in $tags-lightblue {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
-      color: var(--secondary);
+      color: var(--secondary) !important;
       background-color: #459bff;
       &:hover {
         color: var(--secondary);
@@ -69,13 +60,10 @@ $tags-lightblue: str-to-list("#{$lightblue}", "|");
       }
     }
   }
-}
-$tags-blue: str-to-list("#{$blue}", "|");
-@each $tag in $tags-blue {
-  .tag-box,
-  .discourse-tags {
+  $tags-blue: str-to-list("#{$blue}", "|");
+  @each $tag in $tags-blue {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
-      color: var(--secondary);
+      color: var(--secondary) !important;
       background-color: #007aff;
       &:hover {
         color: var(--secondary);
@@ -83,13 +71,10 @@ $tags-blue: str-to-list("#{$blue}", "|");
       }
     }
   }
-}
-$tags-black: str-to-list("#{$black}", "|");
-@each $tag in $tags-black {
-  .tag-box,
-  .discourse-tags {
+  $tags-black: str-to-list("#{$black}", "|");
+  @each $tag in $tags-black {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
-      color: var(--secondary);
+      color: var(--secondary) !important;
       background-color: #000;
       &:hover {
         color: var(--secondary);
@@ -97,14 +82,11 @@ $tags-black: str-to-list("#{$black}", "|");
       }
     }
   }
-}
-$tags-outline: str-to-list("#{$outline}", "|");
-@each $tag in $tags-outline {
-  .tag-box,
-  .discourse-tags {
+  $tags-outline: str-to-list("#{$outline}", "|");
+  @each $tag in $tags-outline {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--tertiary-hover);
-      background-color: var(--secondary);
+      background-color: var(--secondary) !important;
       border: 1px solid var(--tertiary-hover);
       &:hover {
         color: var(--tertiary-hover);
