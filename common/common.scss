@@ -74,10 +74,10 @@
   $tags-black: str-to-list("#{$black}", "|");
   @each $tag in $tags-black {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
-      color: var(--secondary) !important;
+      color: var(--primary-medium) !important;
       background-color: #f5f0f0;
       &:hover {
-        color: var(--secondary);
+        color: var(--primary-medium);
         background-color: #f5f0f0;
       }
     }
