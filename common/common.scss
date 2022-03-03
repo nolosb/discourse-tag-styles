@@ -9,10 +9,10 @@
   @each $tag in $tags-yellow {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary) !important;
-      background-color: #fdb300;
+      background-color: #e657ff;
       &:hover {
         color: var(--secondary);
-        background-color: #fdb300;
+        background-color: #e657ff;
       }
     }
   }
@@ -20,10 +20,10 @@
   @each $tag in $tags-orange {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary) !important;
-      background-color: #ff7a00;
+      background-color: #e38eff;
       &:hover {
         color: var(--secondary);
-        background-color: #ff7a00;
+        background-color: #e38eff;
       }
     }
   }
@@ -31,10 +31,10 @@
   @each $tag in $tags-red {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary) !important;
-      background-color: #ea3436;
+      background-color: #ed5144;
       &:hover {
         color: var(--secondary);
-        background-color: #ea3436;
+        background-color: #ed5144;
       }
     }
   }
@@ -42,10 +42,10 @@
   @each $tag in $tags-green {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary) !important;
-      background-color: #52c50c;
+      background-color: #ff009a;
       &:hover {
         color: var(--secondary);
-        background-color: #52c50c;
+        background-color: #ff009a;
       }
     }
   }
@@ -53,10 +53,10 @@
   @each $tag in $tags-lightblue {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary) !important;
-      background-color: #459bff;
+      background-color: #00d9ee;
       &:hover {
         color: var(--secondary);
-        background-color: #459bff;
+        background-color: #00d9ee;
       }
     }
   }
@@ -64,10 +64,10 @@
   @each $tag in $tags-blue {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary) !important;
-      background-color: #007aff;
+      background-color: #4000cc;
       &:hover {
         color: var(--secondary);
-        background-color: #007aff;
+        background-color: #4000cc;
       }
     }
   }
@@ -75,10 +75,10 @@
   @each $tag in $tags-black {
     .discourse-tag.box[data-tag-name="#{$tag}"] {
       color: var(--secondary) !important;
-      background-color: #000;
+      background-color: #f5f0f0;
       &:hover {
         color: var(--secondary);
-        background-color: #000;
+        background-color: #f5f0f0;
       }
     }
   }
