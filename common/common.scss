@@ -4,10 +4,9 @@
 .discourse-tags,
 .topic-list .link-bottom-line,
 .extra-info-wrapper .topic-header-extra {
-
   $tags-yellow: str-to-list("#{$yellow}", "|");
   @each $tag in $tags-yellow {
-    .discourse-tag.box[data-tag-name="#{$tag}"] {
+    .discourse-tag[data-tag-name="#{$tag}"] {
       color: var(--secondary) !important;
       background-color: #fdb300;
       &:hover {
@@ -18,7 +17,7 @@
   }
   $tags-orange: str-to-list("#{$orange}", "|");
   @each $tag in $tags-orange {
-    .discourse-tag.box[data-tag-name="#{$tag}"] {
+    .discourse-tag[data-tag-name="#{$tag}"] {
       color: var(--secondary) !important;
       background-color: #ff7a00;
       &:hover {
@@ -29,7 +28,7 @@
   }
   $tags-red: str-to-list("#{$red}", "|");
   @each $tag in $tags-red {
-    .discourse-tag.box[data-tag-name="#{$tag}"] {
+    .discourse-tag[data-tag-name="#{$tag}"] {
       color: var(--secondary) !important;
       background-color: #ea3436;
       &:hover {
@@ -40,7 +39,7 @@
   }
   $tags-green: str-to-list("#{$green}", "|");
   @each $tag in $tags-green {
-    .discourse-tag.box[data-tag-name="#{$tag}"] {
+    .discourse-tag[data-tag-name="#{$tag}"] {
       color: var(--secondary) !important;
       background-color: #52c50c;
       &:hover {
@@ -51,7 +50,7 @@
   }
   $tags-lightblue: str-to-list("#{$lightblue}", "|");
   @each $tag in $tags-lightblue {
-    .discourse-tag.box[data-tag-name="#{$tag}"] {
+    .discourse-tag[data-tag-name="#{$tag}"] {
       color: var(--secondary) !important;
       background-color: #459bff;
       &:hover {
@@ -62,7 +61,7 @@
   }
   $tags-blue: str-to-list("#{$blue}", "|");
   @each $tag in $tags-blue {
-    .discourse-tag.box[data-tag-name="#{$tag}"] {
+    .discourse-tag[data-tag-name="#{$tag}"] {
       color: var(--secondary) !important;
       background-color: #007aff;
       &:hover {
@@ -73,7 +72,7 @@
   }
   $tags-black: str-to-list("#{$black}", "|");
   @each $tag in $tags-black {
-    .discourse-tag.box[data-tag-name="#{$tag}"] {
+    .discourse-tag[data-tag-name="#{$tag}"] {
       color: var(--secondary) !important;
       background-color: #000;
       &:hover {
@@ -84,7 +83,7 @@
   }
   $tags-outline: str-to-list("#{$outline}", "|");
   @each $tag in $tags-outline {
-    .discourse-tag.box[data-tag-name="#{$tag}"] {
+    .discourse-tag[data-tag-name="#{$tag}"] {
       color: var(--tertiary-hover);
       background-color: var(--secondary) !important;
       border: 1px solid var(--tertiary-hover);
