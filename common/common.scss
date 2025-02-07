@@ -84,7 +84,7 @@
   $tags-outline: str-to-list("#{$outline}", "|");
   @each $tag in $tags-outline {
     .discourse-tag[data-tag-name="#{$tag}"] {
-      color: var(--tertiary-hover);
+      color: var(--tertiary-hover) !important;
       background-color: var(--secondary) !important;
       border: 1px solid var(--tertiary-hover);
       &:hover {
